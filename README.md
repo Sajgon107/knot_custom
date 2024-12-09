@@ -8,10 +8,10 @@
 
 **Prepare a short presentation that can be used as a guide by anyone else to achieve the same what you did**
 ______________________________
-docker pull cznic/knot-resolver
-
-docker run --rm --network=host -v ~/knot-resolver/kresd.conf:/etc/knot-resolver/kresd.conf cznic/knot-resolver
-
+     docker pull cznic/knot-resolver     
+     docker run --rm --network=host -v ~/knot-resolver/kresd.conf:/etc/knot-resolver/kresd.conf cznic/knot-resolver
      docker run -d --name knot-resolver --network host cznic/knot-resolver
-    docker run -d --name knot-resolver --network host cznic/knot-resolver:6
+          docker run -d --name knot-resolver --network host cznic/knot-resolver:6
+
+          
   
