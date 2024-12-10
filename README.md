@@ -10,6 +10,8 @@
 ______________________________
 10.12.
 
+**Dockerfile** https://www.uschovna.cz/zasilka/QX57Y52GKN55SS9V-PZU
+
      docker run -d --name knot-resolver_cusrom1 --network host   -v /Users/Sajgon/Desktop/kresd.conf:/etc/knot-resolver/kresd.conf   cznic/knot-resolver:6
      root@docker-desktop:/etc/knot-resolver# find / -name "kresd*"
      /run/knot-resolver/kresd0.conf
